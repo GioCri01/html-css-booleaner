@@ -3,6 +3,7 @@ body{
   margin: 0;
   box-sizing: border-box;
   font-family: 'Times New Roman', Times, serif;
+  font-size: 12px;
 }
 
 
@@ -12,14 +13,17 @@ body{
 
 header{
   
-  height: 100px;
+  
   background-image: url(../img/pattern.png);
   background-size: contain;
   background-color: rgb(0, 132, 255);
 }
 
 .logo{
-  width: 200px;
+  width: 10%;
+  margin: 0 0;
+  
+  
   padding-top: 50px;
   padding-left: 20px;
   
@@ -36,6 +40,10 @@ h1{
 
 
 /*MAIN*/
+main{
+  width: 80%;
+  margin: 0 auto;
+}
 
 /*Titolo articolo*/
 
@@ -53,9 +61,7 @@ h1{
 
 
 /*PARAGRAFO+LISTA*/
-.main-p{
-  padding-left: 20px;
-}
+
 
 .main-p span{ background-color: yellow;
 font-family: 'Times New Roman', Times, serif;}
@@ -64,8 +70,13 @@ font-family: 'Times New Roman', Times, serif;}
 /*TABELLA*/
 
 
+
 thead th{
   background-color: rgb(0, 183, 255);
+  text-align: left;
+  width: 800px;
+  
+ 
   
 }
 
@@ -75,6 +86,10 @@ background-color: rgb(0, 195, 255,.3);}
 
 
 /*FOOTER*/
+footer{
+  width: 80%;
+  margin: 0 auto;
+}
 footer h3{
   color: gray;
 }
